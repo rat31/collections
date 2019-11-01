@@ -1,0 +1,19 @@
+# Nmap 7.60 scan initiated Sun Sep  9 17:12:45 2018 as: nmap -sV -Pn -p 22 --script=ssh-auth-methods,ssh-hostkey,ssh-run,sshv1 -oN ../reports/10.10.10.102/ssh_10.10.10.102.nmap 10.10.10.102
+Nmap scan report for Hawk (10.10.10.102)
+Host is up (0.26s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+| ssh-auth-methods: 
+|   Supported authentication methods: 
+|     publickey
+|_    password
+| ssh-hostkey: 
+|   2048 e4:0c:cb:c5:a5:91:78:ea:54:96:af:4d:03:e4:fc:88 (RSA)
+|   256 95:cb:f8:c7:35:5e:af:a9:44:8b:17:59:4d:db:5a:df (ECDSA)
+|_  256 4a:0b:2e:f7:1d:99:bc:c7:d3:0b:91:53:b9:3b:e2:79 (EdDSA)
+|_ssh-run: Failed to specify credentials and command to run.
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  9 17:12:56 2018 -- 1 IP address (1 host up) scanned in 10.90 seconds

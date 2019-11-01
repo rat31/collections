@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Sun Sep  9 17:11:04 2018 as: nmap -sV -O -oN ../reports/10.10.10.8710.10.10.102/10.10.10.8710.10.10.102.nmap 10.10.10.8710.10.10.102
+Failed to resolve "10.10.10.8710.10.10.102".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Sun Sep  9 17:11:04 2018 -- 0 IP addresses (0 hosts up) scanned in 0.49 seconds

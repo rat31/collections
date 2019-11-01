@@ -1,0 +1,28 @@
+# Nmap 7.60 scan initiated Sun Sep  9 17:11:24 2018 as: nmap -sV -O -oN ../reports/10.10.10.102/10.10.10.102.nmap 10.10.10.102
+Nmap scan report for Hawk (10.10.10.102)
+Host is up (0.22s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp     vsftpd 3.0.3
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.29 ((Ubuntu))
+8082/tcp open  http    H2 database http console
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=9/9%OT=21%CT=1%CU=41206%PV=Y%DS=2%DC=I%G=Y%TM=5B94F925
+OS:%P=i686-pc-linux-gnu)SEQ(SP=FF%GCD=1%ISR=10F%TI=Z%CI=I%II=I%TS=A)SEQ(SP=
+OS:FF%GCD=1%ISR=10F%TI=Z%CI=RD%TS=A)SEQ(SP=FF%GCD=2%ISR=10F%TI=Z%II=I%TS=A)
+OS:SEQ(SP=105%GCD=1%ISR=10C%TI=Z%TS=A)OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3=
+OS:M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)WIN(W1=7120%W2=71
+OS:20%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7
+OS:%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=
+OS:Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%
+OS:RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  9 17:12:45 2018 -- 1 IP address (1 host up) scanned in 81.00 seconds

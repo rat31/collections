@@ -1,0 +1,16 @@
+# Nmap 7.60 scan initiated Sun Sep  9 17:12:45 2018 as: nmap -Pn -A -sC -sU -T 3 --top-ports 200 -oN ../reports/10.10.10.102/udp_10.10.10.102.nmap 10.10.10.102
+Nmap scan report for Hawk (10.10.10.102)
+Host is up (0.27s latency).
+Not shown: 199 closed ports
+PORT    STATE SERVICE VERSION
+161/udp open  snmp    net-snmp
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 9876/udp)
+HOP RTT       ADDRESS
+1   330.36 ms 10.10.14.1
+2   330.37 ms Hawk (10.10.10.102)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  9 17:16:35 2018 -- 1 IP address (1 host up) scanned in 230.58 seconds
